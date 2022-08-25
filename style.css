@@ -664,6 +664,47 @@ footer span button:hover {
 /* responsive */
 @media screen and (max-width: 600px) {
     .container {
-        flex-direction: row;
+        flex-direction: column;
     }
+    /* work */
+    .container .work {
+        width: 400px;
+        height: 750px;
+        margin-left: 15px;
+    }
+    .container .work .wd {
+        width: calc(100% - 70px);
+        height: 160px;
+    }
+    .container .work .fed {
+        width: calc(100% - 70px);
+        height: 175px;
+    }
+    .container .work .ud {
+        width: calc(100% - 70px);
+        height: 175px;
+    }
+    .container .work hr {
+        width: calc(100% - 70px);
+    }
+    /* education */
+    .container .edu {
+        width: 400px;
+        height: 600px;
+        margin-left: 15px;
+    }
+    .container .edu .wpu {
+        width: calc(100% - 70px);
+        height: 160px;
+    }
+    .container .edu .dk {
+        width: calc(100% - 70px);
+    }
+    .container .edu .mn {
+        width: calc(100% - 70px);
+    }
+    .container .edu hr {
+        width: calc(100% - 70px);
+    }
+
 }

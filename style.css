@@ -674,7 +674,7 @@ footer span button:hover {
     /* work */
     .container .work {
         width: 350px;
-        height: 750px;
+        height: 850px;
         margin: 0 auto 15px;
     }
     .container .work h1 {
@@ -682,11 +682,11 @@ footer span button:hover {
     }
     .container .work .wd {
         width: calc(100% - 70px);
-        height: 160px;
+        height: 200px;
     }
     .container .work .fed {
         width: calc(100% - 70px);
-        height: 175px;
+        height: 220px;
     }
     .container .work .ud {
         width: calc(100% - 70px);

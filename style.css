@@ -668,7 +668,8 @@ footer span button:hover {
     }
     /* aside */
     .container aside {
-        width: 350px;
+        width: 400px;
+        margin: 15px;
     }
     /* work */
     .container .work {
@@ -710,5 +711,8 @@ footer span button:hover {
     .container .edu hr {
         width: calc(100% - 70px);
     }
-
+    /* footer */
+    footer {
+        width: calc(100% - 70px);
+    }
 }

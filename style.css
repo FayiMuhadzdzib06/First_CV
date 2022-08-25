@@ -668,14 +668,17 @@ footer span button:hover {
     }
     /* aside */
     .container aside {
-        width: 400px;
-        margin: 15px;
+        width: 350px;
+        margin: 0 auto 15px;
     }
     /* work */
     .container .work {
-        width: 400px;
+        width: 350px;
         height: 750px;
-        margin: 0 15px 15px;
+        margin: 0 auto 15px;
+    }
+    .container .work h1 {
+        font-size: 25px;
     }
     .container .work .wd {
         width: calc(100% - 70px);
@@ -694,9 +697,9 @@ footer span button:hover {
     }
     /* education */
     .container .edu {
-        width: 400px;
+        width: 350px;
         height: 600px;
-        margin: 0 15px 10px;
+        margin: 0 auto 10px;
     }
     .container .edu .wpu {
         width: calc(100% - 70px);
@@ -712,7 +715,5 @@ footer span button:hover {
         width: calc(100% - 70px);
     }
     /* footer */
-    footer {
-        width: calc(100% - 70px);
-    }
+    
 }

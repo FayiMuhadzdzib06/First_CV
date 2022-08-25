@@ -670,7 +670,7 @@ footer span button:hover {
     .container .work {
         width: 400px;
         height: 750px;
-        margin-left: 15px;
+        margin: 0 15px;
     }
     .container .work .wd {
         width: calc(100% - 70px);
@@ -691,7 +691,7 @@ footer span button:hover {
     .container .edu {
         width: 400px;
         height: 600px;
-        margin-left: 15px;
+        margin: 0 15px 10px;
     }
     .container .edu .wpu {
         width: calc(100% - 70px);

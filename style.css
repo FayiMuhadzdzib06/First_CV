@@ -660,3 +660,10 @@ footer span button:hover {
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 0, 0, .2);
 }
+
+/* responsive */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+}

@@ -666,11 +666,15 @@ footer span button:hover {
     .container {
         flex-direction: column;
     }
+    /* aside */
+    .container aside {
+        width: 350px;
+    }
     /* work */
     .container .work {
         width: 400px;
         height: 750px;
-        margin: 0 15px;
+        margin: 0 15px 15px;
     }
     .container .work .wd {
         width: calc(100% - 70px);

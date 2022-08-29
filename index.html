@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,157 +10,179 @@
     <link rel="icon" href="img/curriculum-vitae.png">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 </head>
-<body>
-    <div class="container">
-        <aside>
-            <h1>Fayi Muhadzdzib</h1>
-            <div class="job">
-                <div class="icon"></div>
-                <p>Front End Developer</p>
-            </div>
-            <div class="live">
-                <div class="icon"></div>
-                <p>Indonesia, Jakarta</p>
-            </div>
-            <div class="email">
-                <div class="icon"></div>
-                <p>fayimujahid1@gmail.com</p>
-            </div>
-            <div class="telp">
-                <div class="icon"></div>
-                <p>0858-8641-9064</p>
-            </div>
-            <hr>
-            <div class="skil">
-                <div class="icon"></div>
-                <p>Skills</p>
-            </div>
-            <p>Manipulation</p>
-            <div class="static1">
-                <div class="full">90%</div>
-            </div>
-            <p>Influence</p>
-            <div class="static2">
-                <div class="full">80%</div>
-            </div>
-            <p>Ability</p>
-            <div class="static3">
-                <div class="full">77%</div>
-            </div>
-            <p>Adaptability</p>
-            <div class="static4">
-                <div class="full">85%</div>
-            </div>
-            <div class="langugaes">
-                <div class="icon"></div>
-                <p>Languages</p>
-            </div>
-            <p>Chines</p>
-            <div class="static5">
-                <div class="full"></div>
-            </div>
-            <p>Rusian</p>
-            <div class="static6">
-                <div class="full"></div>
-            </div>
-            <p>Javanese</p>
-            <div class="static7">
-                <div class="full"></div>
-            </div>
-            <p>Sundanese</p>
-            <div class="static8">
-                <div class="full"></div>
-            </div>
-        </aside>
-        <div>
-            <div class="work">
-                <div class="Judul-work">
-                    <div class="icon"></div>
-                    <p>Work Experience</p>
-                </div>
-                <div class="wd">
-                    <h3>Web Developer / Fazztrack.com</h3>
-                    <div class="time">
-                        <div class="icon"></div>
-                        <span>Jan 2020 -</span>
-                        <div class="current">Current</div>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, obcaecati ab id atque culpa necessitatibus rem quisquam quidem deserunt. Veritatis!</p>
-                </div>
-                <hr>
-                <div class="fed">
-                    <h3>Front End Developer / Giatinaja.com</h3>
-                    <div class="time">
-                        <div class="icon"></div>
-                        <span>Des 2017 - July 2019</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, eius quo, aspernatur facere rerum error explicabo ipsa officiis ullam, enim voluptate maxime. Ipsum, incidunt rerum.</p>
-                </div>
-                <hr>
-                <div class="ud">
-                    <h3>UI / UX Designer / Buildwithangga.com</h3>
-                    <div class="time">
-                        <div class="icon"></div>
-                        <span>Aug 2015 - May 2016</span>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt reiciendis recusandae officiis, quae voluptas.</p>
-                </div>
-            </div>
-            <div class="edu">
-                <div class="Judul-edu">
-                    <div class="icon"></div>
-                    <p>Education</p>
-                </div>
-                <div class="wpu">
-                    <h3>Web Programming Unpas & W3Schools</h3>
-                    <div class="time">
-                        <div class="icon"></div>
-                        <span>Always</span>
-                    </div>
-                    <p>Web Development! All I need to know in one place</p>
-                </div>
-                <hr>
-                <div class="dk">
-                    <h3>Duniailkom</h3>
-                    <div class="time">
-                        <div class="icon"></div>
-                        <span>Sometimes</span>
-                    </div>
-                    <p>Impressive!!!</p>
-                </div>
-                <hr>
-                <div class="mn">
-                    <h3>MalasNgoding</h3>
-                    <div class="time">
-                        <div class="icon"></div>
-                        <span>Sometimes</span>
-                    </div>
-                    <p>Impressive!!!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <p>Find me on social media.</p>
-        <div class="icon">
-            <a href="#">
-                <div class="fb"></div>
-            </a>
-            <a href="https://www.instagram.com/fkydzzb_/">
-                <div class="ig"></div>
-            </a>
-            <a href="#">
-                <div class="twt"></div>
-            </a>
-        </div>
-        <span>Created By <button id="btn" onclick="klik()">Klik</button> <span id="name" style="display: none;">Fayi Muhadzdzib</span></span>
-    </footer>
 
+<body onload="myFunction()">
+    <!-- loader -->
+    <div id="load" class="loading"></div>
+
+    <div id="penampung" style="display: none;">
+        <!-- isi -->
+        <div class="container">
+            <aside>
+                <h1>Fayi Muhadzdzib</h1>
+                <div class="job">
+                    <div class="icon"></div>
+                    <p>Front End Developer</p>
+                </div>
+                <div class="live">
+                    <div class="icon"></div>
+                    <p>Indonesia, Jakarta</p>
+                </div>
+                <div class="email">
+                    <div class="icon"></div>
+                    <p>fayimujahid1@gmail.com</p>
+                </div>
+                <div class="telp">
+                    <div class="icon"></div>
+                    <p>0858-8641-9064</p>
+                </div>
+                <hr>
+                <div class="skil">
+                    <div class="icon"></div>
+                    <p>Skills</p>
+                </div>
+                <p>Manipulation</p>
+                <div class="static1">
+                    <div class="full">90%</div>
+                </div>
+                <p>Influence</p>
+                <div class="static2">
+                    <div class="full">80%</div>
+                </div>
+                <p>Ability</p>
+                <div class="static3">
+                    <div class="full">77%</div>
+                </div>
+                <p>Adaptability</p>
+                <div class="static4">
+                    <div class="full">85%</div>
+                </div>
+                <div class="langugaes">
+                    <div class="icon"></div>
+                    <p>Languages</p>
+                </div>
+                <p>Chines</p>
+                <div class="static5">
+                    <div class="full"></div>
+                </div>
+                <p>Rusian</p>
+                <div class="static6">
+                    <div class="full"></div>
+                </div>
+                <p>Javanese</p>
+                <div class="static7">
+                    <div class="full"></div>
+                </div>
+                <p>Sundanese</p>
+                <div class="static8">
+                    <div class="full"></div>
+                </div>
+            </aside>
+            <div>
+                <div class="work">
+                    <div class="Judul-work">
+                        <div class="icon"></div>
+                        <p>Work Experience</p>
+                    </div>
+                    <div class="wd">
+                        <h3>Web Developer / Fazztrack.com</h3>
+                        <div class="time">
+                            <div class="icon"></div>
+                            <span>Jan 2020 -</span>
+                            <div class="current">Current</div>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, obcaecati ab id atque culpa
+                            necessitatibus rem quisquam quidem deserunt. Veritatis!</p>
+                    </div>
+                    <hr>
+                    <div class="fed">
+                        <h3>Front End Developer / Giatinaja.com</h3>
+                        <div class="time">
+                            <div class="icon"></div>
+                            <span>Des 2017 - July 2019</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, eius quo, aspernatur facere
+                            rerum error explicabo ipsa officiis ullam, enim voluptate maxime. Ipsum, incidunt rerum.</p>
+                    </div>
+                    <hr>
+                    <div class="ud">
+                        <h3>UI / UX Designer / Buildwithangga.com</h3>
+                        <div class="time">
+                            <div class="icon"></div>
+                            <span>Aug 2015 - May 2016</span>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt reiciendis
+                            recusandae officiis, quae voluptas.</p>
+                    </div>
+                </div>
+                <div class="edu">
+                    <div class="Judul-edu">
+                        <div class="icon"></div>
+                        <p>Education</p>
+                    </div>
+                    <div class="wpu">
+                        <h3>Web Programming Unpas & W3Schools</h3>
+                        <div class="time">
+                            <div class="icon"></div>
+                            <span>Always</span>
+                        </div>
+                        <p>Web Development! All I need to know in one place</p>
+                    </div>
+                    <hr>
+                    <div class="dk">
+                        <h3>Duniailkom</h3>
+                        <div class="time">
+                            <div class="icon"></div>
+                            <span>Sometimes</span>
+                        </div>
+                        <p>Impressive!!!</p>
+                    </div>
+                    <hr>
+                    <div class="mn">
+                        <h3>MalasNgoding</h3>
+                        <div class="time">
+                            <div class="icon"></div>
+                            <span>Sometimes</span>
+                        </div>
+                        <p>Impressive!!!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Find me on social media.</p>
+            <div class="icon">
+                <a href="#">
+                    <div class="fb"></div>
+                </a>
+                <a href="https://www.instagram.com/fkydzzb_/">
+                    <div class="ig"></div>
+                </a>
+                <a href="#">
+                    <div class="twt"></div>
+                </a>
+            </div>
+            <span>Created By <button id="btn" onclick="klik()">Klik</button> <span id="name" style="display: none;">Fayi
+                    Muhadzdzib</span></span>
+        </footer>
+
+    </div>
     <script>
-        function klik(){
+        // loader
+        function myFunction() {
+            myVar = setTimeout(showPage, 1500);
+        }
+
+        function showPage() {
+            document.getElementById("load").style.display = "none";
+            document.getElementById("penampung").style.display = "block";
+        }
+
+        function klik() {
             document.getElementById('btn').style.display = 'none';
             document.getElementById('name').style.display = 'inline';
         }
     </script>
 </body>
+
 </html>

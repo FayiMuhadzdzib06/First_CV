@@ -8,133 +8,6 @@
 body {
     background-color: rgb(240, 240, 240);
 }
-/* loader */
-/* Absolute Center Spinner */
-.loading {
-    position: fixed;
-    z-index: 999;
-    height: 2em;
-    width: 2em;
-    overflow: visible;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-/* Transparent Overlay */
-.loading:before {
-    content: '';
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(240, 240, 240);
-}
-
-/* :not(:required) hides these rules from IE9 and below */
-.loading:not(:required) {
-    /* hide "loading..." text */
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0;
-}
-
-.loading:not(:required):after {
-    content: '';
-    display: block;
-    font-size: 10px;
-    width: 1em;
-    height: 1em;
-    margin-top: -0.5em;
-    -webkit-animation: spinner 1500ms infinite linear;
-    -moz-animation: spinner 1500ms infinite linear;
-    -ms-animation: spinner 1500ms infinite linear;
-    -o-animation: spinner 1500ms infinite linear;
-    animation: spinner 1500ms infinite linear;
-    border-radius: 0.5em;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
-    box-shadow: #0070c5 1.5em 0 0 0, #0070c5 1.1em 1.1em 0 0, #0070c5 0 1.5em 0 0, #0070c5 -1.1em 1.1em 0 0, #0070c5 -1.5em 0 0 0, #0070c5 -1.1em -1.1em 0 0, #0070c5 0 -1.5em 0 0, #0070c5 1.1em -1.1em 0 0;
-}
-
-/* Animation */
-
-@-webkit-keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@-moz-keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@-o-keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
 
 /* content */
 .container {
@@ -846,34 +719,6 @@ footer span button:hover {
     }
     
 }
-/* option button */
-.option {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    background-color: #0070c5;
-    top: 495px;
-    right: 5px;
-    border-radius: 50%;
-    transition: .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.option .set {
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    border-radius: 50%;
-    background-image: url('img/settings.png');
-    background-size: 20px;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    transition: .5s;
-}
-.option .set:hover {
-    transform: scale(0.9) rotate(360deg);
-}
 /* Tema Dark */
 .tema {
     position: fixed;
@@ -881,7 +726,7 @@ footer span button:hover {
     height: 50px;
     background-color: #0070c5;
     top: 495px;
-    right: -100px;
+    right: 0;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
     display: flex;

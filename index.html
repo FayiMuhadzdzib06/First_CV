@@ -165,7 +165,18 @@
             <span>Created By <button id="btn" onclick="klik()">Klik</button> <span id="name" style="display: none;">Fayi
                     Muhadzdzib</span></span>
         </footer>
-
+    </div>
+    <!-- option button -->
+    <div class="option" id="op" onclick="option()">
+        <div class="set"></div>
+    </div>
+    <!-- dark -->
+    <div class="tema" id="tm">
+        <a href="dark.html">
+            <div class="dark"></div>
+        </a>
+        <a href="index.html"></a>
+        <div class="light"></div>
     </div>
     <script>
         // loader
@@ -181,6 +192,11 @@
         function klik() {
             document.getElementById('btn').style.display = 'none';
             document.getElementById('name').style.display = 'inline';
+        }
+        // tema
+        function option(){
+            document.getElementById('op').style.transform = 'translateX(100px)';
+            document.getElementById('tm').style.transform = 'translateX(-100px)';
         }
     </script>
 </body>

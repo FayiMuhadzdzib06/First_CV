@@ -6,136 +6,8 @@
     user-select: none;
 }
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(53, 53, 53);
 }
-/* loader */
-/* Absolute Center Spinner */
-.loading {
-    position: fixed;
-    z-index: 999;
-    height: 2em;
-    width: 2em;
-    overflow: visible;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-/* Transparent Overlay */
-.loading:before {
-    content: '';
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(240, 240, 240);
-}
-
-/* :not(:required) hides these rules from IE9 and below */
-.loading:not(:required) {
-    /* hide "loading..." text */
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0;
-}
-
-.loading:not(:required):after {
-    content: '';
-    display: block;
-    font-size: 10px;
-    width: 1em;
-    height: 1em;
-    margin-top: -0.5em;
-    -webkit-animation: spinner 1500ms infinite linear;
-    -moz-animation: spinner 1500ms infinite linear;
-    -ms-animation: spinner 1500ms infinite linear;
-    -o-animation: spinner 1500ms infinite linear;
-    animation: spinner 1500ms infinite linear;
-    border-radius: 0.5em;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
-    box-shadow: #0070c5 1.5em 0 0 0, #0070c5 1.1em 1.1em 0 0, #0070c5 0 1.5em 0 0, #0070c5 -1.1em 1.1em 0 0, #0070c5 -1.5em 0 0 0, #0070c5 -1.1em -1.1em 0 0, #0070c5 0 -1.5em 0 0, #0070c5 1.1em -1.1em 0 0;
-}
-
-/* Animation */
-
-@-webkit-keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@-moz-keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@-o-keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes spinner {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
 /* content */
 .container {
     width: 100%;
@@ -146,9 +18,9 @@ body {
 .container aside {
     width: 400px;
     height: 1205px;
-    background-color: #fff;
+    background-color: rgb(34, 34, 34);
     margin: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    box-shadow: 0 0 10px rgba(95, 95, 95, 0.3);
     border-radius: 10px;
 }
 .container aside h1 {
@@ -157,7 +29,7 @@ body {
     background-image: url('img/644452.jpg');
     background-size: cover;
     background-position: -55px 0;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: normal;
     padding: 225px 0 0 20px;
     border-top-left-radius: 10px;
@@ -180,7 +52,7 @@ body {
 }
 .container aside .job p {
     font-size: 15px;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .container aside .live {
     width: 100%;
@@ -197,7 +69,7 @@ body {
 }
 .container aside .live p {
     font-size: 15px;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .container aside .email {
     width: 100%;
@@ -214,7 +86,7 @@ body {
 }
 .container aside .email p {
     font-size: 15px;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .container aside .telp {
     width: 100%;
@@ -232,12 +104,12 @@ body {
 }
 .container aside .telp p {
     font-size: 15px;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .container aside hr {
     width: calc(100% - 50px);
     margin: auto;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .container aside .skil {
     width: 100%;
@@ -256,7 +128,7 @@ body {
 .container aside .skil p {
     font-size: 20px;
     font-weight: bold;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .container aside > p {
     width: 100%;
@@ -266,12 +138,12 @@ body {
     align-items: center;
     padding-left: 20px;
     margin-top: 15px;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .container aside .static1 {
     width: calc(100% - 40px);
     height: 15px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -289,7 +161,7 @@ body {
 .container aside .static2 {
     width: calc(100% - 40px);
     height: 15px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -307,7 +179,7 @@ body {
 .container aside .static3 {
     width: calc(100% - 40px);
     height: 15px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -325,7 +197,7 @@ body {
 .container aside .static4 {
     width: calc(100% - 40px);
     height: 15px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -357,12 +229,12 @@ body {
 .container aside .langugaes p {
     font-size: 20px;
     font-weight: bold;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .container aside .static5 {
     width: calc(100% - 40px);
     height: 25px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -380,7 +252,7 @@ body {
 .container aside .static6 {
     width: calc(100% - 40px);
     height: 25px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -398,7 +270,7 @@ body {
 .container aside .static7 {
     width: calc(100% - 40px);
     height: 25px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -416,7 +288,7 @@ body {
 .container aside .static8 {
     width: calc(100% - 40px);
     height: 25px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(90, 90, 90, 0.1);
     border-radius: 50px;
     margin: 10px auto 0;
 }
@@ -435,9 +307,9 @@ body {
 .container .work {
     width: 910px;
     height: 615px;
-    background-color: #fff;
+    background-color: rgb(34, 34, 34);
     margin: 15px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 10px rgba(90, 90, 90, 0.1);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -458,7 +330,7 @@ body {
 }
 .container .work .Judul-work p {
     font-size: 30px;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 /* work > Web Dev */
 .container .work .wd {
@@ -469,7 +341,7 @@ body {
 .container .work .wd h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 .container .work .wd .time {
     width: 100%;
@@ -492,20 +364,20 @@ body {
     width: 70px;
     height: 25px;
     background-color: #0070c5;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 3px;
     margin-left: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container .work .wd .time p {
-    font-size: 12px;
+.container .work .wd p {
+    color: rgba(255, 255, 255, 0.5);
 }
 .container .work hr {
     width: calc(100% - 100px);
     margin: 0 auto;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 /* work > Front end dev */
 .container .work .fed {
@@ -516,7 +388,7 @@ body {
 .container .work .fed h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 .container .work .fed .time {
     width: 100%;
@@ -535,8 +407,8 @@ body {
 .container .work .fed .time span {
     color: #0070c5;
 }
-.container .work .fed .time p {
-    font-size: 12px;
+.container .work .fed p {
+    color: rgba(255, 255, 255, .5);
 }
 /* Work > ui/ux design */
 .container .work .ud {
@@ -547,7 +419,7 @@ body {
 .container .work .ud h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 .container .work .ud .time {
     width: 100%;
@@ -566,16 +438,16 @@ body {
 .container .work .ud .time span {
     color: #0070c5;
 }
-.container .work .ud .time p {
-    font-size: 12px;
+.container .work .ud p {
+    color: rgba(255, 255, 255, .5);
 }
 /* Education */
 .container .edu {
     width: 910px;
     height: 575px;
-    background-color: #fff;
+    background-color: rgb(34, 34, 34);
     margin: 15px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 10px rgba(95, 95, 95, 0.3);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -596,7 +468,7 @@ body {
 }
 .container .edu .Judul-edu p {
     font-size: 30px;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 /* education > wpu */
 .container .edu .wpu {
@@ -607,7 +479,7 @@ body {
 .container .edu .wpu h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 .container .edu .wpu .time {
     width: 100%;
@@ -626,13 +498,13 @@ body {
 .container .edu .wpu .time span {
     color: #0070c5;
 }
-.container .edu .wpu .time p {
-    font-size: 12px;
+.container .edu .wpu p {
+    color: rgba(255, 255, 255, .5);
 }
 .container .edu hr {
     width: calc(100% - 100px);
     margin: 0 auto;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 /* education > duniailkom */
 .container .edu .dk {
@@ -643,7 +515,7 @@ body {
 .container .edu .dk h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 .container .edu .dk .time {
     width: 100%;
@@ -662,8 +534,8 @@ body {
 .container .edu .dk .time span {
     color: #0070c5;
 }
-.container .edu .dk .time p {
-    font-size: 12px;
+.container .edu .dk p {
+    color: rgba(255, 255, 255, .5);
 }
 /* education > malasngoding */
 .container .edu .mn {
@@ -674,7 +546,7 @@ body {
 .container .edu .mn h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 .container .edu .mn .time {
     width: 100%;
@@ -693,8 +565,8 @@ body {
 .container .edu .mn .time span {
     color: #0070c5;
 }
-.container .edu .mn .time p {
-    font-size: 12px;
+.container .edu .mn p {
+    color: rgba(255, 255, 255, .5);
 }
 /* Footer */
 footer {
@@ -863,7 +735,7 @@ footer span button:hover {
 .option .set {
     width: 40px;
     height: 40px;
-    background-color: #fff;
+    background-color: rgb(214, 214, 214);
     border-radius: 50%;
     background-image: url('img/settings.png');
     background-size: 20px;
@@ -881,7 +753,7 @@ footer span button:hover {
     height: 50px;
     background-color: #0070c5;
     top: 495px;
-    right: -100px;
+    right: 0;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
     display: flex;
@@ -892,7 +764,7 @@ footer span button:hover {
 .tema .dark, .light {
     width: 40px;
     height: 40px;
-    background-color: #fff;
+    background-color: rgb(214, 214, 214);
     border-radius: 50%;
     transition: .5s;
 }

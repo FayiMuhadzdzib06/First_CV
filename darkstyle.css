@@ -59,7 +59,7 @@ body {
 
 .container aside .job p {
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .container aside .live {
@@ -79,7 +79,7 @@ body {
 
 .container aside .live p {
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .container aside .email {
@@ -99,7 +99,7 @@ body {
 
 .container aside .email p {
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .container aside .telp {
@@ -120,7 +120,7 @@ body {
 
 .container aside .telp p {
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .container aside hr {
@@ -148,10 +148,10 @@ body {
 .container aside .skil p {
     font-size: 20px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.container aside>p {
+.container aside > p {
     width: 100%;
     height: 30px;
     font-size: 17px;
@@ -159,7 +159,7 @@ body {
     align-items: center;
     padding-left: 20px;
     margin-top: 15px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .container aside .static1 {
@@ -261,7 +261,7 @@ body {
 .container aside .langugaes p {
     font-size: 20px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .container aside .static5 {
@@ -374,7 +374,7 @@ body {
 
 .container .work .Judul-work p {
     font-size: 30px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /* work > Web Dev */
@@ -387,7 +387,7 @@ body {
 .container .work .wd h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .container .work .wd .time {
@@ -423,7 +423,7 @@ body {
 }
 
 .container .work .wd p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255, .8);
 }
 
 .container .work hr {
@@ -442,7 +442,7 @@ body {
 .container .work .fed h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .container .work .fed .time {
@@ -466,7 +466,7 @@ body {
 }
 
 .container .work .fed p {
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255, .8);
 }
 
 /* Work > ui/ux design */
@@ -479,7 +479,7 @@ body {
 .container .work .ud h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .container .work .ud .time {
@@ -503,7 +503,7 @@ body {
 }
 
 .container .work .ud p {
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255, .8);
 }
 
 /* Education */
@@ -536,7 +536,7 @@ body {
 
 .container .edu .Judul-edu p {
     font-size: 30px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /* education > wpu */
@@ -549,7 +549,7 @@ body {
 .container .edu .wpu h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .container .edu .wpu .time {
@@ -573,7 +573,7 @@ body {
 }
 
 .container .edu .wpu p {
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255, .8);
 }
 
 .container .edu hr {
@@ -592,7 +592,7 @@ body {
 .container .edu .dk h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .container .edu .dk .time {
@@ -616,7 +616,7 @@ body {
 }
 
 .container .edu .dk p {
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255, .8);
 }
 
 /* education > malasngoding */
@@ -629,7 +629,7 @@ body {
 .container .edu .mn h3 {
     font-size: 20px;
     font-weight: 550;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .container .edu .mn .time {
@@ -653,7 +653,7 @@ body {
 }
 
 .container .edu .mn p {
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255, .8);
 }
 
 /* Footer */

@@ -753,7 +753,7 @@ footer span button:hover {
     height: 50px;
     background-color: #0070c5;
     top: 495px;
-    right: 0;
+    right: -100px;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
     display: flex;
@@ -769,13 +769,12 @@ footer span button:hover {
     transition: .5s;
 }
 .tema .dark {
-    background-image: url('img/moon.png');
+    background-image: url('img/moon2.png');
     background-size: 20px;
     background-repeat: no-repeat;
-    background-position: 10px 10px;
-}
-.tema .dark:hover {
-    transform: scale(0.9) rotate(360deg);
+    background-position: 8px 8px;
+    background-color: #0070c5;
+    border: 2px solid rgb(214, 214, 214);
 }
 .tema .light {
     background-image: url('img/sun.png');

@@ -799,7 +799,7 @@ footer span button:hover {
     /* aside */
     .container aside {
         width: 350px;
-        margin: 0 auto 15px;
+        margin: 15px auto;
     }
     /* work */
     .container .work {
@@ -844,7 +844,10 @@ footer span button:hover {
     .container .edu hr {
         width: calc(100% - 70px);
     }
-    
+    /* option */
+    .option {
+        right: 5px;
+    }
 }
 /* option button */
 .option {

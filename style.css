@@ -911,7 +911,7 @@ footer span button:hover {
     height: 40px;
     background-color: #fff;
     border-radius: 50%;
-    background-image: url('img/settings.png');
+    background-image: url('img/themes.png');
     background-size: 20px;
     background-position: 10px 10px;
     background-repeat: no-repeat;
@@ -959,14 +959,12 @@ footer span button:hover {
 }
 
 .tema .light {
-    background-image: url('img/sun.png');
+    background-image: url('img/sun2.png');
     background-size: 20px;
     background-repeat: no-repeat;
-    background-position: 10px 10px;
-}
-
-.tema .light:hover {
-    transform: scale(0.9) rotate(360deg);
+    background-position: 8px 8px;
+    background-color: #0070c5;
+    border: 2px solid #fff;
 }
 
 /* responsive */
@@ -1037,6 +1035,6 @@ footer span button:hover {
 
     /* option */
     .option {
-        right: 15px;
+        right: 10px;
     }
 }
